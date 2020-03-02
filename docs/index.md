@@ -5,11 +5,9 @@ External SCSS/CSS file that can change the appearance of [mkdocs-material theme]
 To have proper syntax highlighting, don't forget to add this code to your `mkdocs.yml` file:
 
 ```yaml
-
 markdown_extensions:
   - codehilite:
-      guess_lang: False
       use_pygments: True
       noclasses: True
-      pygments_style: monokaiw
+      pygments_style: monokai
 ```

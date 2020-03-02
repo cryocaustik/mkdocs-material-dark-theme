@@ -1,0 +1,21 @@
+site_name: mkdocs-material-dark-theme
+
+theme:
+  name: material
+  palette:
+    primary: green
+    accent: red
+
+markdown_extensions:
+  - codehilite:
+      use_pygments: True
+      noclasses: True
+      pygments_style: monokai
+
+extra_css:
+  - css/extra.css
+
+nav:
+  - home: index.md
+  - demo:
+      - code_samples: code_samples/index.md
