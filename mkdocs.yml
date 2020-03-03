@@ -1,4 +1,5 @@
 site_name: mkdocs-material-dark-theme
+repo_url: https://github.com/cryocaustik/mkdocs-material-dark-theme
 
 theme:
   name: material
